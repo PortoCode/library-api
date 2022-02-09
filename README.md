@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
-</p>
-
-# library-api
+# Library API
 
 RESTful API with NestJS (Node.js framework) to manage a library system.
 
@@ -10,6 +6,18 @@ RESTful API with NestJS (Node.js framework) to manage a library system.
 
 ```bash
 $ npm install
+```
+
+## Environment
+
+You must create .env file to define environment variables, for example:
+
+```bash
+MYSQL_HOST=localhost
+MYSQL_PORT=3306
+MYSQL_USER=root
+MYSQL_PASSWORD=root
+MYSQL_DB_NAME=library
 ```
 
 ## Running the app
